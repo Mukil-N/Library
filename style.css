@@ -1,0 +1,69 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+#form-container {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input {
+    width: 250px;
+    background-color: #dfdada;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.read1 {
+    display: flex;
+    width: 240px;
+}
+#read {
+    height: 15px;
+    position: relative;
+    right: 90px;
+}
+#add-book {
+    position: relative;
+    right: 85px;
+    border: none;
+    border-radius: 20px;
+    background-color: #dfdada;
+    height: 25px;
+}
+#add-book:hover {
+    background-color: aliceblue;
+}
+#books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.book {
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: #dfdada;
+    color: black;
+}
+.toggle,.remove {
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+.toggle:hover,.remove:hover {
+    background-color: aliceblue;
+}
